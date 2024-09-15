@@ -1,0 +1,93 @@
+/* Estilo global */
+body {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: #333;
+}
+
+/* Cabeçalho */
+header {
+    background-color: white;
+}
+
+header h1 {
+    font-size: 36px;
+}
+p.description {
+    text-align: center;
+}
+p.headline {
+    color: red;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 16px;
+}
+/* Imagem principal */
+#container .img {
+    width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+    margin-bottom: 40px;
+}
+
+/* Conteúdo principal */
+#page {
+    max-width: 1120px;
+    margin: 48px auto 28px;
+    background-color: #FFFFFF;
+    border: 1px solid #1E1E1E;
+}
+
+/* Cartões de cada destino */
+.card2, .card3 {
+    border-color: 1px, solid #D9D9D9;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-top: 64px;
+    margin-bottom: 64px;
+}
+
+.card2 h2, .card3 h2 {
+    font-size: 1.5rem;
+}
+
+/* Estilo das imagens de cada cartão */
+.card2 img, .card3 img {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Estilo da seção de "Bom para" */
+.bom-para {
+    font-weight: bold;
+}
+
+ul.lista-categorias li {
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+ul.lista-categorias li a {
+    text-decoration: none;
+
+}
+
+p.resumo {
+    text-align: center;
+}
+
+/* Rodapé */
+footer {
+    text-align: center;
+    background-color: #f8f8f8;
+    margin-top: 20px;
+    padding-bottom: 48px;
+}
+
+#img .Vector {
+    vertical-align: middle;
+  }
