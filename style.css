@@ -15,21 +15,30 @@ header {
 header h1 {
     font-size: 36px;
 }
+
 p.description {
     text-align: center;
 }
+
 p.headline {
     color: red;
     text-transform: uppercase;
     font-weight: bold;
     font-size: 16px;
+    margin: 0;
 }
+
 /* Imagem principal */
 #container .img {
     width: 100%;
-    max-height: 400px;
+    max-height: 660px;
     object-fit: cover;
-    margin-bottom: 40px;
+}
+
+#container {
+    border: 1px solid #D9D9D9; 
+    margin-top: 40px;
+    margin-bottom: 64px;
 }
 
 /* Conteúdo principal */
@@ -40,28 +49,30 @@ p.headline {
     border: 1px solid #1E1E1E;
 }
 
-/* Cartões de cada destino */
+
 .card2, .card3 {
-    border-color: 1px, solid #D9D9D9;
     background-color: #fff;
     border-radius: 10px;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
-    margin-top: 64px;
-    margin-bottom: 64px;
+    margin-top: 40px;
+}
+
+.card2 p {
+    margin-bottom: 40px;
 }
 
 .card2 h2, .card3 h2 {
     font-size: 1.5rem;
 }
 
-/* Estilo das imagens de cada cartão */
+
 .card2 img, .card3 img {
     width: 100%;
     height: auto;
     border-radius: 10px;
 }
 
-/* Estilo da seção de "Bom para" */
+
 .bom-para {
     font-weight: bold;
 }
@@ -71,8 +82,27 @@ ul.lista-categorias li {
     border-radius: 5px;
 }
 
+
 ul.lista-categorias li a {
     text-decoration: none;
+}
+
+
+ul.lista-categorias li a[href*="História"] {
+    color: blue;
+
+}
+
+ul.lista-categorias li a[href*="Casais"] {
+    color: purple;
+}
+
+ul.lista-categorias li a[href*="Famílias"] {
+    color: pink;
+}
+
+ul.lista-categorias li a[href*="Orçamento"] {
+    color: orange;
 
 }
 
@@ -90,4 +120,4 @@ footer {
 
 #img .Vector {
     vertical-align: middle;
-  }
+}
